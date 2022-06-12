@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+#containerMain {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#scoreSection {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px 15px;
+}
+
+h5 {
+    padding: 10px 15px;
+    margin: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 5px;
+}
+
+button {
+    width: 35%;
+    padding: 10px 15px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    justify-content: space-between;
+    border: none;
+    border-color: 0;
+    border-style: none;
+    box-shadow: none;
+    border-width: 0px;
+
+}
+
+#p1Btn {
+    background-color: #5FD068;
+    border: none;
+    border-color: 0;
+    border-style: none;
+    box-shadow: none;
+    border-width: 0px;
+    color: white;
+    border-radius: 3%;
+}
+
+#p2Btn {
+    background-color: #6FB2D2;
+    border: none;
+    border-color: 0;
+    border-style: none;
+    box-shadow: none;
+    border-width: 0px;
+    color: white;
+    border-radius: 3%;
+}
+
+#resetBtn {
+    background-color: #F94C66;
+    border: none;
+    border-color: 0;
+    border-style: none;
+    box-shadow: none;
+    border-width: 0px;
+    color: white;
+    border-radius: 3%;
+
+}
+
+h1 {
+    margin: 0px ;
+}
+
+p {
+    margin: 3px
+}
+
+#playingTo {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    padding: 0px;
+    align-items: center;
+}
+
+#options {
+    height: 20px;
+    border-radius: 7px;
+
+}
